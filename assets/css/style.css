@@ -1,0 +1,21 @@
+.tab {
+	display: none;
+}
+#tab-1 {
+	display: block;
+}
+.tabs li {
+	list-style:none;
+	display:inline;
+}
+.tabs a {
+	padding:5px 10px;
+	display:inline-block;
+	background:#666;
+	color:#fff;
+	text-decoration:none;
+}
+.tabs a.active {
+	background:#ddd;
+	color:#000;
+}
